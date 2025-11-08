@@ -28,7 +28,9 @@ Esto esta en *cursiva*
 ### Tachado
 ~~palabra~~
 
-__*TEXTO*__
+### Anidar estilos
+
+**palabra1 _palabra2_** las 2 palabras se veran en itálica, pero la segunda además en negrita
 
 ABRIR ETIQUETA 1
     ABRIR ETIQUETA 2
@@ -71,6 +73,9 @@ grgrrrrrrrrrrrrrr
 
 ## Enlace
 [link](https://www.wwe.com/ "Manal oficial de WWE")
+a) Primero se incluye el texto del link entre corchetes y posteriormente el link en paréntesis
+
+b) El "titulo opcional del enlace " es el texto alternativo al pasar el ratón por encima
 
 ## Foto
 
@@ -78,11 +83,30 @@ grgrrrrrrrrrrrrrr
 
 ## Tabla
 
-| *Jugador* | Equipo | Nombre |
+La primera línea son los encabezados de las columnas
+Los dos puntos (ver en linea 2) se usan para alinear las columnas (izquierda, centrado,derecha)
+No es necessario que estén alineadas verticalmente.Solo a nivel visual para claridad del código
+Se han de poner al menos tres guiones para separar cada enzabezado
+ 
+| *Jugador* | Equipo | Nombre | 
 |---------:|:----------------:|:-----------------|
 | 32 | Lakers | Magic Johson |
 | 33 | Celtics | Boston Celtics |
 | 34 | Warriors | Connor McGregor |
+
+
+## Notas al pie de página
+Texto con enlace a nota de pie de página [^1]
+HOLAHOLAHOLAOHLAOHOLAOHLAOLHOALAOLGOALGOALHOLAOFLGOHOLAOHLAOL
+[^1] Aqui encuentras el texto de la nota al pie de página
+
+## Listqs de verificación
+- [] A
+- [x] B
+- [] C
+
+(Dejar un espacio en blanco entre los dos corchetes en las que aparezacan vacias )
+
 
 ### ESTO ES HTML
 
