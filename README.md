@@ -15,12 +15,18 @@ Etiquetas básicas de Markdown
 ##### H5
 ###### H6
 
+## Estilos de letra
 
+### Negrita
 Esto esta en  __negrita__
 Esto esta en **negrita** también
 
+### Cursiva
 Esto esta en _cursiva_
 Esto esta en *cursiva*
+
+### Tachado
+~~palabra~~
 
 __*TEXTO*__
 
