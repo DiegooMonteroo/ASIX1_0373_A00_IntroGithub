@@ -35,17 +35,17 @@
     <ol>  <!-- Etiqueta para definir una lista ordenada -->
         <li>Primer elemento de la lista</li> <!-- Esto es un elemento, se define con "li" -->
             <ol>
-                <li>SubElemento 1.1</li>
-                <li>SubElemento 1.2</li>
+                <li>SubElemento 1.1</li><!-- Esto es un elemento, se define con "li" -->
+                <li>SubElemento 1.2</li><!-- Esto es un elemento, se define con "li" -->
             </ol>
-        <li>Segundo elemento de la lista</li>
-        <li>Tercer elemento de la lista</li>
+        <li>Segundo elemento de la lista</li><!-- Esto es un elemento, se define con "li" -->
+        <li>Tercer elemento de la lista</li><!-- Esto es un elemento, se define con "li" -->
     </ol>
 
  <ul><!-- Etiqueta para definir una lista desordenada -->
         <li>Primer elemento de la lista</li> <!-- Esto es un elemento, se define con "li" -->
-        <li>Segundo elemento de la lista</li>
-        <li>Tercer elemento de la lista</li>
+        <li>Segundo elemento de la lista</li><!-- Esto es un elemento, se define con "li" -->
+        <li>Tercer elemento de la lista</li><!-- Esto es un elemento, se define con "li" -->
     </ul>
     <BR>
     <!-- Etiqueta para insertar imagenes -->
@@ -56,5 +56,82 @@
      <a href="./VIAJES/NYC/viajes.html">Viaje a NYC</a>
 
 
+    <!--Hacer una tabla-->
+    <table border="1"><!--Define una tabla-->
+        <thead><!--Encabezado-->
+            <tr><!--Define una fila-->
+                <th>POSICION</th><!--Define columnas-->
+                <th>ATLETA</th><!--Define columnas-->
+                <th>TIME</th><!--Define columnas-->
+            </tr>
+        </thead>
+        <tbody><!--Datos-->
+               <tr><!--Define una fila-->
+                <td>1</td><!--Define columnas-->
+                <td>Michel Eaton</td><!--Define columnas-->
+                <td>2:23:00</td><!--Define columnas-->
+            </tr>
+               <tr><!--Define una fila-->
+                <td rowspan="2">2</td><!--Define columnas-->
+                <td colspan="2">Andrea Boccceli</td><!--Define columnas-->
+            </tr>
+               <tr><!--Define una fila-->
+                <td>Steve carmaikel</td><!--Define columnas-->
+                <td>2:50:00</td><!--Define columnas-->
+            </tr>
+
+        </tbody>
+        <tfoot><!--Pie-->
+               <tr><!--Define una fila-->
+                <td>POSICION</td><!--Define columnas-->
+                <td>ATLETA</td><!--Define columnas-->
+                <td>TIME</td><!--Define columnas-->
+            </tr>
+        </tfoot>
+    </table>
+
+
+
+
+
+    <!--Formulario-->
+        <form action="URLdeDestino.html" method="GET">
+            <label for="username">Username:</label>
+            <input type="text" name="username" id="username required">
+            <br>
+            <label for="realname">Nombre real:</label>
+            <input type="text" name="realname" id="realname">
+            <br>
+            <fieldset>
+                <legend>Carnet de conducir</legend>
+                <label for="carnetsi">SI:</label>
+                <input type="radio" name="carnet" value="carnetsi" id="carnetsi">
+                <label for="carnetno">NO:</label>
+                <input type="radio" name="carnet" value="carnetno" id="carnetno">
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Gustos musicales</legend>
+                <label for="pop">Pop</label>
+                <input type="checkbox" name="musica" value="heavy" id="pop" >
+                <label for="pachanga">Heavy:</label>
+                <input type="checkbox" name="musica" value="heavy" id="heavy">
+                <label for="pachanga">Pachanga</label>
+                <input type="checkbox" name="musica" value="heavy" id="Pachanga">
+            </fieldset>
+            <br>
+             <label for="nacionalidad">Nacionalidad:</label>
+            <select id="nacionalidad" name="nacionalidad">
+                <option value="españa">España</option>
+                <option value="usa">USA</option>
+                <option value="brasil">Brasil</option>
+                
+            </select>
+            <br>
+                  <label for="observaciones">Observaciones</label><br>
+            <textarea name="Observaciones" id="observaciones" cols="30" rows="30" placeholder="Introduce aqui cualquier observación que tengas"></textarea>
+            <br>
+            <button type="submit" name="enviar" value="enviar">Enviar datos</button>
+        </form>
 </body>
 </html>

@@ -3,6 +3,19 @@
 ### Es mi primera toma de contacto con github
 #### Soy Diego Montero
 
+Etiquetas básicas de Markdown
+
+## Encabezados
+**Encabezados** llevan asociados un estilo por defectos cada una y sirven para inicar secciones de documentos
+
+# H1
+## H2
+### H3
+#### H4
+##### H5
+###### H6
+
+
 Esto esta en  __negrita__
 Esto esta en **negrita** también
 
