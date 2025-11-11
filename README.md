@@ -110,19 +110,17 @@ HOLAHOLAHOLAOHLAOHOLAOHLAOLHOALAOLGOALGOALHOLAOFLGOHOLAOHLAOL
 
 ### ESTO ES HTML
 
-HTML (HyperText Markup Language) es el lenguaje de marcado estándar para crear páginas web. Lenguaje mñas importante de Intenet dado que sin HTML no se vería nada en el navegador
+<p>HTML (HyperText Markup Language) es el lenguaje de marcado estándar para crear páginas web. Lenguaje mñas importante de Intenet dado que sin HTML no se vería nada en el navegador</p>
 
-HTML define la estructura y el contenido (es decir, si hay una imagen, una lista de elementos, un enlace, un párrafo, un titular, etc..) de las páginas web mediante etiquetas, es muy adaptable, tiene una estructura lógica y es muy fácil de enteder e interpretar. DESCRIBE EL CONTENIDO
+<p>HTML define la estructura y el contenido (es decir, si hay una imagen, una lista de elementos, un enlace, un párrafo, un titular, etc..) de las páginas web mediante etiquetas, es muy adaptable, tiene una estructura lógica y es muy fácil de enteder e interpretar. DESCRIBE EL CONTENIDO</p>
 
-Usamos el CSS para modificar el contenido
+<p>Usamos el CSS para modificar el contenido</p>
 
-Los elementos HTML son los bloques de construcción de las páginas HTML
+<p>Los elementos HTML son los bloques de construcción de las páginas HTML</p>
 
-Cada elemento HTML está delimitado por etiquetas, como <body> , <head> <p> <h1> etc
+<p>Cada elemento HTML está delimitado por etiquetas, como <body> , <head> <p> <h1> etc</p>
 
-HTML fue desarrolado en 1991 por Tim Berners-Lee
-
-
+<p>HTML fue desarrolado en 1991 por Tim Berners-Lee</p>
 
 Cada etiqueta HMTL, empiezan con <que y menor que >
 
