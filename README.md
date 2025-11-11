@@ -272,7 +272,7 @@ Cada etiqueta HMTL, empiezan con (que y menor que)
     </body>
 </html>
 ```
-<h3>Organizacióm de los archivos</h3>
+<h3>Organización de los archivos</h3>
 
 <p>Como una aplicación web tiene bastantes archivos con extesión.html, hojas de estilo css, imágenes, videos, lo ideal seria ordenarlo</p>
 
