@@ -108,28 +108,38 @@ HOLAHOLAHOLAOHLAOHOLAOHLAOLHOALAOLGOALGOALHOLAOFLGOHOLAOHLAOL
 (Dejar un espacio en blanco entre los dos corchetes en las que aparezacan vacias )
 
 
-### ESTO ES HTML
+## ESTO ES HTML
 
-<p>HTML (HyperText Markup Language) es el lenguaje de marcado estándar para crear páginas web. Lenguaje mñas importante de Intenet dado que sin HTML no se vería nada en el navegador</p>
+<p><strong>HTML (HyperText Markup Language)</strong> : es el lenguaje de marcado estándar para crear páginas web. Lenguaje mñas importante de Intenet dado que sin HTML no se vería nada en el navegador</p>
 
-<p>HTML define la estructura y el contenido (es decir, si hay una imagen, una lista de elementos, un enlace, un párrafo, un titular, etc..) de las páginas web mediante etiquetas, es muy adaptable, tiene una estructura lógica y es muy fácil de enteder e interpretar. DESCRIBE EL CONTENIDO</p>
+<p><strong>HTML</strong> define la estructura y el contenido (es decir, si hay una imagen, una lista de elementos, un enlace, un párrafo, un titular, etc..) de las páginas web mediante etiquetas, es muy adaptable, tiene una estructura lógica y es muy fácil de enteder e interpretar. DESCRIBE EL CONTENIDO</p>
 
-<p>Usamos el CSS para modificar el contenido</p>
+<p>Usamos el <strong>CSS</strong> para modificar el contenido</p>
 
-<p>Los elementos HTML son los bloques de construcción de las páginas HTML</p>
+<p>Los elementos <strong>HTML</strong> son los bloques de construcción de las páginas HTML</p>
 
-<p>Cada elemento HTML está delimitado por etiquetas, como (body) , (head) (p) (h1) etc</p>
 
-<p>HTML fue desarrolado en 1991 por Tim Berners-Lee</p>
+<p>Cada elemento <strong>HTML</strong> está delimitado por etiquetas, como <b>(body) , (head) (p) (h1)</b> etc</p>
+
+
+<p>HTML fue desarrolado en 1991 por <strong>Tim Berners-Lee</strong></p>
+
+
+
+### INTRODUCIÓN A HTML
+<hr>
 
 Cada etiqueta HMTL, empiezan con (que y menor que)
 
-<p>HyperText: su significado es hipertexto, que no es más que un texto que enlaza con otros contenidos
+<p><strong>HyperText:</strong> su significado es hipertexto, que no es más que un texto que enlaza con otros contenidos
 </p>
 
-<p>Markup: significa marca o etiqueta, por qué todas la páginas web están construidas en base a etiquetas</p>
+<p><strong>Markup: </strong>significa marca o etiqueta, por qué todas la páginas web están construidas en base a etiquetas</p>
 
-<p>Language: su significado es lenguaje, por que HTML es un lenguaje, es decir, tiene sus normas, un punto importante, es que html no es un kenguaje de programación, ya que no tiene estructuras de lenguaje de programación, como los bucles, las condiciones etc..</p>
+<p><strong>Language:</strong> su significado es lenguaje, por que HTML es un lenguaje, es decir, tiene sus normas, un punto importante, es que html no es un kenguaje de programación, ya que no tiene estructuras de lenguaje de programación, como los bucles, las condiciones etc..</p>
+
+### ELEMENTOS (HTML)
+<hr>
 
 <p>es un lenguaje que define la estructura de su contenido </p>
 
@@ -139,24 +149,24 @@ Cada etiqueta HMTL, empiezan con (que y menor que)
 <p>Me llamo Diego</p>
 ```
 
-
-
-<h3>Las partes principales del elemento son:</h3>
+#### Las partes principales del elemento son:
+<hr>
 
 <p><strong>La etiqueta de abertura:</strong> consiste en el nombre del elemento (en este caso, p), encerrado por parentesis anguiares (< > ) de apertura y cierre, Establece donde comienza a tener efecto el elemento</p>
 
 <p><strong>La etiqueta de cierre:</strong> practicamente igual a la inicio, solo que lleva una barra de cierre (/) antes del nombre de la etiqueta, Establece donde termina cada elemnto</p>
 
-<p><strong>La etiqueta de cierre:</strong> practicamente igual a la inicio, solo que lleva una barra de cierre (/) antes del nombre de la etiqueta, Establece donde termina cada elemnto</p>
-
 <p><strong>El contenido:</strong> este es el contenido del elemento, que en este caso es solo texto</p>
-
 
 <p><strong>El elemento:</strong> La etiqueta de apertura, más la etiqueta de cierre, más el contenido equivale al elemento</p>
 
 ![alt text](./cap.png "Imagen random de un archivo")
 
-<h3>Los elmentos pueden también tener atributos:</h3>
+
+
+### LOS ELEMENTOS PUEDEN TAMBIÉN TENER ATRIBUTOS
+<hr>
+
 
 ![alt text](./cap1.png "Imagen random de un archivo")
 
@@ -166,9 +176,10 @@ Cada etiqueta HMTL, empiezan con (que y menor que)
 
 <p>A los elementos que no possen contenido,se les llama <strong>elementos vacios</strong></p>
 
-<h3>Estructura básica de un fichero HTML</h3>
+### ESTRUCTURA BÁSICA DE UN FICHERO HTML
+<hr>
 
-<p> Una página<strong> HTML</strong> incluye una declaración <strong>DOCTYPE</strong> un elemento htmk, dentro de este, un head y un body </p>
+<p> Una página<strong> (HTML)</strong> incluye una declaración <strong>(DOCTYPE)</strong> un elemento html, dentro de este, un head y un body </p>
 
 <p>El head contiene metadatos y enlaces a hojas de estilo y scripts, mientras que el body contiene el contenido principal de la página web</p>
 
@@ -184,11 +195,12 @@ Cada etiqueta HMTL, empiezan con (que y menor que)
 </head>
 </html>
 ```
-<p><strong>!DOCTYPE html</strong> Indica el tipo de Documento</p>
-<p><strong>html</strong> Encierra todo el contenido de la página entera</p>
-<p><strong>head</strong> aquel contenedor de todo aquello que queremos añadir en la página HTML, no es contenido visible por los visitantes de la páginas</p>
+<p><strong>(!DOCTYPE html)</strong> Indica el tipo de Documento</p>
+<p><strong>(html)</strong> Encierra todo el contenido de la página entera</p>
+<p><strong>(head)</strong> aquel contenedor de todo aquello que queremos añadir en la página HTML, no es contenido visible por los visitantes de la páginas</p>
 
-<h3>Elementos de bloque y línea</h3>
+### ELEMENTOS DE BLOQUE Y LÍNEA
+<hr>
 
 <p>Dentro del cuerpo del documento (marcado con la etiqueta body) tenemos que poner todo el contenido de la página web, hay diferentes atributos, que nos permitirán conseguir el resultado que queremos</p>
 
@@ -211,7 +223,8 @@ Cada etiqueta HMTL, empiezan con (que y menor que)
 <em> (énfasis/cursiva), <strong> (fuerte énfasis/negrita), <q> (citas cortas), <span> (rango), <cite>, <abbr>, <code>
 ```
 
-<h3>Resumen de Normas básicas de etiquetas HTML</h3>
+### RESUMEN DE NORMAS BÁSICAS DE ETIQUETAS HTML
+<hr>
 
 <p>Las etiquetas HTML normalmente vienen en pares, con una etiqueta de apertura y una de cierre, por ejemplo</p>
 
@@ -233,11 +246,13 @@ Cada etiqueta HMTL, empiezan con (que y menor que)
 ```html
 <img src="./cap.png"> aquel atributo que especifica la ruta de la imagen
 ```
-<p>Como recomendación es que todo se escriba en minúsculas</p>
+<p><strong>Como recomendación</strong> es que todo se escriba en minúsculas</p>
 
-<h3>Legibilidad y organización del código</h3>
 
-<p>Es importante que el código fuente HTML que generemos sea legible, para que fácil de entender</p>
+### LEGIBILIDAD Y ORGANIZACIÓN DEL CÓDIGO
+
+<hr>
+<p><strong>Es importante que el código fuente HTML que generemos sea legible, para que fácil de entender</strong></p>
 
 <p>Para estructurar el código fuente de la aplicación web, debemos clasificarlo de la siguiente manera</p>
 
@@ -247,7 +262,7 @@ Cada etiqueta HMTL, empiezan con (que y menor que)
 * la indentación del código
 * la organización de los archivos
 
-<h3>Legibilidad y organización del código</h3>
+### COMENTARIOS
 
 <p>En un documento HTML, podemos escribir texto, que no puede verse en el navegador, pero que sirven bastante para el desarrollador web</p>
 
@@ -272,18 +287,23 @@ Cada etiqueta HMTL, empiezan con (que y menor que)
     </body>
 </html>
 ```
-<h3>Organización de los archivos</h3>
+### ORGANIZACIÓN DE LOS ARCHIVOS
+
+<hr>
 
 <p>Como una aplicación web tiene bastantes archivos con extesión.html, hojas de estilo css, imágenes, videos, lo ideal seria ordenarlo</p>
 
 <p>Es recomendable crear un directorio personal, donde dejaremos todos nuestros archivos (web), en este directorio podemos poner todos los archivos.html y crear los directorios que necesitemos para poner los archivos multimedia (imágenes, audios y videos) y los estilos de la aplicación</p>
 
-<p>También es recomendable que el archivo de incio de las aplicaciones tenga el nombre index.html</p>
+<p><strong>También es recomendable que el archivo de incio de las aplicaciones tenga el nombre index.html</strong></p>
 
 ```html
 <img src="./cap3.png"> aquel atributo que especifica la ruta de la imagen
 ```
-<h3>Etiquetas básicas de HTML</h3>
+
+### ETIQUETAS BÁSICAS DE HTML
+
+<hr>
 
 <p><strong>Encabezados (h1... h6)</strong>: Permiten especificar que ciertas partes del contenido son encabezados o subencabezados del contenido.</p>
 
@@ -328,9 +348,12 @@ Cada etiqueta HMTL, empiezan con (que y menor que)
 ```html
   <p><span>ipsum dolor</span> sit, amet consectetur adipisicing elit. Facere accusamus tempora neque voluptas, alias, eius molestias magni, amet accusantium impedit nesciunt labore quia cupiditate temporibus illum ab blanditiis optio nam.</p>
 ```
+
+### CONTINUACIÓN DE ETIQUETAS BÁSICAS DE HTML
+
 <p><strong>Listas</strong></p>
 
-<p>Las listas <strong>desordenadas</strong> son aquellas en las que el orden de los items no es relevante, como una lista de compras.Estas son encerradas en un elemento (ul)</p>
+<p>Las listas <strong>desordenadas</strong> son aquellas en las que el orden de los items no es relevante, como una lista de compras.Estas son encerradas en un elemento <strong>(ul)</strong></p>
 
 <p>Cada <strong>Cada elemento de la lista</strong> se coloca dentro de <strong>(li)</strong></p>
 
@@ -341,7 +364,7 @@ Cada etiqueta HMTL, empiezan con (que y menor que)
         <li>Tercer elemento de la lista</li><!-- Esto es un elemento, se define con "li" -->
     </ul>
 ```
-<p>Las listas <strong>ordenadas</strong> son aquellas en las que el orden  es relevante, como una receta.Estas son encerradas en un elemento (ol)</p>
+<p>Las listas <strong>ordenadas</strong> son aquellas en las que el orden  es relevante, como una receta.Estas son encerradas en un elemento <strong>(ol)</strong></p>
 
 <p>Cada <strong>Cada elemento de la lista</strong> se coloca dentro de <strong>(li)</strong></p>
 
@@ -352,6 +375,8 @@ Cada etiqueta HMTL, empiezan con (que y menor que)
         <li>Tercer elemento de la lista</li><!-- Esto es un elemento, se define con "li" -->
     </ul>
 ```
+
+### CONTINUACIÓN 1 DE ETIQUETAS BÁSICAS DE HTML
 <p>En HTML, cuando necesitamos enlazar a otros archivos, ya sean documentos HTML, hojas de estilo CSS, o imágenes, podemos usar rutas para especificar la ubicación de estos archivos. Existen rutas absolutas y relativas</p>
 
 <p><strong>Ruta absoluta:</strong> especifica la ubicación completa del archivo en la web, comenzando desde el dominio. Es útil cuando el archivo se encuentra en un servidor diferente o en una ubicación específica de la web</p>
@@ -366,7 +391,7 @@ Cada etiqueta HMTL, empiezan con (que y menor que)
 <!-- Etiqueta para insertar imagenes -->
 ```html
     <img id="imagen1" src="./MULTIMEDIA/IMAGENES/images.jpg" alt="Foto de SOLDIUER BOY" >
-````
+```
 
 ### Etiquetas de Tablas (1/3)
 
@@ -376,6 +401,7 @@ Cada etiqueta HMTL, empiezan con (que y menor que)
 
 <p><strong>border:</strong> Define el grosor del borde de la tabla</p>
 <p><strong>width:</strong> Especifica el ancho de la tabla</p>
+
 
 
 <p><strong>thead:</strong>Agrupa el encabezado de la tabla, normalmente contiene etiquetas (th)</p>
@@ -440,9 +466,8 @@ Cada etiqueta HMTL, empiezan con (que y menor que)
             </tr>
         </tfoot>
     </table>
-````
-
-<h3>Etiquetas de formularios (form)</h3>
+```
+### Etiquetas de formularios (form)
 
 <p><strong>form:</strong> Se utiliza para crear formularios que permiten al usuario enviar datos a un servidor o realizar alguna acción en una página web</p>
 
@@ -460,7 +485,7 @@ Cada etiqueta HMTL, empiezan con (que y menor que)
 
 <p><strong>_blank</strong> Abre la respuesta en una nueva pestaña o ventana</p>
 
-<h3>Etiquetas de formularios (input)</h3>
+### Etiquetas de formularios (input)
 
 <p><strong>input:</strong> Se utiliza para crear diversos tipos de campos interactivos en un formulario</p>
 
@@ -483,9 +508,9 @@ Cada etiqueta HMTL, empiezan con (que y menor que)
 
 <p><strong>readonly:</strong> Hace que el campo sea solo de lectura.evitando que el usuario modifique su contenido</p>
 
+### Etiquetas de formularios (select/option)
 
-<h3>Etiquetas de formularios (select/option)</h3>
-
+<hr>
 <p><strong>select o option </strong> Se utiliza para crear menús desplegables en los formularios</p>
 
 <p>Permite al usuario seleccionar <strong>una opción</strong> de una lista de opciones predefinidas</p>
