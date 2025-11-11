@@ -118,11 +118,11 @@ HOLAHOLAHOLAOHLAOHOLAOHLAOLHOALAOLGOALGOALHOLAOFLGOHOLAOHLAOL
 
 <p>Los elementos HTML son los bloques de construcción de las páginas HTML</p>
 
-<p>Cada elemento HTML está delimitado por etiquetas, como <body> , <head> <p> <h1> etc</p>
+<p>Cada elemento HTML está delimitado por etiquetas, como (body) , (head) (p) (h1) etc</p>
 
 <p>HTML fue desarrolado en 1991 por Tim Berners-Lee</p>
 
-Cada etiqueta HMTL, empiezan con <que y menor que >
+Cada etiqueta HMTL, empiezan con (que y menor que)
 
 <p>HyperText: su significado es hipertexto, que no es más que un texto que enlaza con otros contenidos
 </p>
