@@ -3,7 +3,43 @@
 ### Es mi primera toma de contacto con github
 #### Soy Diego Montero
 
-Etiquetas básicas de Markdown
+
+### GIT HUB
+
+<hr>
+
+<p><strong>Git hub</strong> es una plataforma que esta situada en la nube, podemos almacenar,compartir o colaborar con otros para escribir código</p>
+
+<p>Actualmente, la estamos usando para la creación de repos y subir el contenido de todos los trabajos</p>
+
+<p>Además la usamos para hacer un pages de los trabajos</p>
+
+![alt text](./cap4.png "Imagen random de un archivo")
+
+
+### GIT
+
+<hr>
+
+<p><strong>Git:</strong> es un sistema de control de versiones distribuido capaz de gestionar versiones de código fuente o datos. lo que da quiere decir, un clon local del proyecto es un repositorio de control de versiones completo.</p>
+
+<p>Tambíen lo usamos para subir los cambios que hemos realizado en la prácticas en Git Hub</p>
+
+<p>Para ello, usamos distintos comandos</p>
+
+<p><strong>git init: </strong>Inicializa un repositorio Git en la carpeta actual.</p>
+
+<p><strong>git add .: </strong>Añade todos los archivos modificados al área de preparación (staging area).</p>
+
+<p><strong>git commit -m (mensaje): </strong>Registra los cambios añadidos con un mensaje descriptivo</p>
+
+<p><strong>git push origin: </strong>Envía los commits locales al repositorio remoto en la rama </p>
+
+
+![alt text](./cap5.png "Imagen random de un archivo")
+
+
+### Etiquetas básicas de Markdown
 
 ## Encabezados
 **Encabezados** llevan asociados un estilo por defectos cada una y sirven para inicar secciones de documentos
@@ -100,7 +136,7 @@ Texto con enlace a nota de pie de página [^1]
 HOLAHOLAHOLAOHLAOHOLAOHLAOLHOALAOLGOALGOALHOLAOFLGOHOLAOHLAOL
 [^1] Aqui encuentras el texto de la nota al pie de página
 
-## Listqs de verificación
+## Listas de verificación
 - [] A
 - [x] B
 - [] C
@@ -149,7 +185,7 @@ Cada etiqueta HMTL, empiezan con (que y menor que)
 <p>Me llamo Diego</p>
 ```
 
-#### Las partes principales del elemento son:
+#### LAS PARTES PRINCIPALES DE UN ELEMENTO SON:
 <hr>
 
 <p><strong>La etiqueta de abertura:</strong> consiste en el nombre del elemento (en este caso, p), encerrado por parentesis anguiares (< > ) de apertura y cierre, Establece donde comienza a tener efecto el elemento</p>
