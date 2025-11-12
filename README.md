@@ -39,7 +39,11 @@
 ![alt text](./cap5.png "Imagen random de un archivo")
 
 
-### Etiquetas básicas de Markdown
+### MARK DOWN
+
+<hr>
+
+### ETIQUETAS BÁSICAS DE MARKDOWN
 
 ## Encabezados
 **Encabezados** llevan asociados un estilo por defectos cada una y sirven para inicar secciones de documentos
@@ -146,9 +150,9 @@ HOLAHOLAHOLAOHLAOHOLAOHLAOLHOALAOLGOALGOALHOLAOFLGOHOLAOHLAOL
 
 ## ESTO ES HTML
 
-<p><strong>HTML (HyperText Markup Language)</strong> : es el lenguaje de marcado estándar para crear páginas web. Lenguaje mñas importante de Intenet dado que sin HTML no se vería nada en el navegador</p>
+<p><strong>HTML (HyperText Markup Language)</strong> : es el lenguaje de marcado estándar para crear páginas web. Lenguaje mas importante de Intenet dado que sin HTML no se vería nada en el navegador</p>
 
-<p><strong>HTML</strong> define la estructura y el contenido (es decir, si hay una imagen, una lista de elementos, un enlace, un párrafo, un titular, etc..) de las páginas web mediante etiquetas, es muy adaptable, tiene una estructura lógica y es muy fácil de enteder e interpretar. DESCRIBE EL CONTENIDO</p>
+<p><strong>HTML</strong> define la estructura y el contenido (es decir, si hay una imagen, una lista de elementos, un enlace, un párrafo, un titular, etc..) de las páginas web mediante etiquetas (DESCRIBE EL CONTENIDO) </p>
 
 <p>Usamos el <strong>CSS</strong> para modificar el contenido</p>
 
@@ -172,14 +176,14 @@ Cada etiqueta HMTL, empiezan con (que y menor que)
 
 <p><strong>Markup: </strong>significa marca o etiqueta, por qué todas la páginas web están construidas en base a etiquetas</p>
 
-<p><strong>Language:</strong> su significado es lenguaje, por que HTML es un lenguaje, es decir, tiene sus normas, un punto importante, es que html no es un kenguaje de programación, ya que no tiene estructuras de lenguaje de programación, como los bucles, las condiciones etc..</p>
+<p><strong>Language:</strong> su significado es lenguaje, por que HTML es un lenguaje, osea, tiene sus normas,no es un lenguaje de programación, ya que no tiene estructuras de lenguaje de programación, como los bucles, las condiciones etc..</p>
 
 ### ELEMENTOS (HTML)
 <hr>
 
 <p>es un lenguaje que define la estructura de su contenido </p>
 
-<p>Esto implica que la información a mostrar ha de ir "etiquetados</p>
+<p>Esto implica que la información a mostrar ha de ir con etiquetas</p>
 
 ```html
 <p>Me llamo Diego</p>
@@ -188,13 +192,13 @@ Cada etiqueta HMTL, empiezan con (que y menor que)
 #### LAS PARTES PRINCIPALES DE UN ELEMENTO SON:
 <hr>
 
-<p><strong>La etiqueta de abertura:</strong> consiste en el nombre del elemento (en este caso, p), encerrado por parentesis anguiares (< > ) de apertura y cierre, Establece donde comienza a tener efecto el elemento</p>
+<p><strong>La etiqueta de abertura:</strong> se basa en el  nombre del elemento (en este caso, p), lleva parentesis anguiares (< > ) de apertura y cierre, Establece donde comienza a tener efecto el elemento</p>
 
-<p><strong>La etiqueta de cierre:</strong> practicamente igual a la inicio, solo que lleva una barra de cierre (/) antes del nombre de la etiqueta, Establece donde termina cada elemnto</p>
+<p><strong>La etiqueta de cierre:</strong> practicamente igual a la inicio, solo que lleva una barra de cierre (/) antes del nombre de la etiqueta, Establece donde termina cada elemento</p>
 
 <p><strong>El contenido:</strong> este es el contenido del elemento, que en este caso es solo texto</p>
 
-<p><strong>El elemento:</strong> La etiqueta de apertura, más la etiqueta de cierre, más el contenido equivale al elemento</p>
+<p><strong>El elemento:</strong> Es el conjunto de etiquetas de apertura y cierre, más el contenido</p>
 
 ![alt text](./cap.png "Imagen random de un archivo")
 
@@ -206,11 +210,11 @@ Cada etiqueta HMTL, empiezan con (que y menor que)
 
 ![alt text](./cap1.png "Imagen random de un archivo")
 
-<p>Los atributos contienen datos addicionales del elemento, en el ejemplo se ve <strong>class</strong> es <strong>el nombre del atributo</strong> y el editor-note el <strong> valor del atributo</strong></p>
+<p>Los atributos contienen datos adicionales del elemento,  se ve que <strong>class</strong> es <strong>el nombre del atributo</strong> y el editor-note el <strong> valor del atributo</strong></p>
 
 <p>Además se pueden colocar elementos dentro de otros elementos, esto se llama <strong>anidamiento</strong></p>
 
-<p>A los elementos que no possen contenido,se les llama <strong>elementos vacios</strong></p>
+<p>A los elementos que no tienen contenido,se les llama <strong>elementos vacios</strong></p>
 
 ### ESTRUCTURA BÁSICA DE UN FICHERO HTML
 <hr>
@@ -238,13 +242,13 @@ Cada etiqueta HMTL, empiezan con (que y menor que)
 ### ELEMENTOS DE BLOQUE Y LÍNEA
 <hr>
 
-<p>Dentro del cuerpo del documento (marcado con la etiqueta body) tenemos que poner todo el contenido de la página web, hay diferentes atributos, que nos permitirán conseguir el resultado que queremos</p>
+<p>Dentro del cuerpo del documento (marcado con la etiqueta body) se pone todo el contenido de la página web, hay diferentes atributos, que haran que el resultado sea como nosotros queremos</p>
 
 <p>Los elementos descendientes de HTML se pueden clasificar en dos tipos:</p>
 
 <p><strong>Elementos de bloque </strong>(block elements)</p>
 
-<p>Son grandes estructuras que contienen otros elementos de bloque, elementos de linea o texto. Son ejemplos de elementos de bloque los títulos, los párrafos, las listas o las tablas</p>
+<p>Son grandes estructuras que engloban otros elementos de bloque, elementos de linea o texto. Son ejemplos de elementos de bloque los títulos, los párrafos, las listas o las tablas</p>
 
 
 ```html
@@ -262,7 +266,7 @@ Cada etiqueta HMTL, empiezan con (que y menor que)
 ### RESUMEN DE NORMAS BÁSICAS DE ETIQUETAS HTML
 <hr>
 
-<p>Las etiquetas HTML normalmente vienen en pares, con una etiqueta de apertura y una de cierre, por ejemplo</p>
+<p>Las etiquetas HTML mayoritariamente vienen en pares, una etiqueta de apertura y otra de cierre, por ejemplo</p>
 
 ```html
 <p> y </p>
@@ -300,14 +304,14 @@ Cada etiqueta HMTL, empiezan con (que y menor que)
 
 ### COMENTARIOS
 
-<p>En un documento HTML, podemos escribir texto, que no puede verse en el navegador, pero que sirven bastante para el desarrollador web</p>
+<p>En un documento HTML, podemos escribir texto, que no se vera en el navegador, sirven bastante para el desarrollador web</p>
 
 <p>Para hacer un comentario en HTML, se hace de la siguiente manera</p>
 
 ```html
 <!--Diego-->
 ```
-<p>Si es el texto, es largo es recomendable usar comentarios</p>
+<p>Si el texto es largo, es mejor colocar comentarios</p>
 
 ```html
 <!DOCTYPE html>
@@ -327,7 +331,7 @@ Cada etiqueta HMTL, empiezan con (que y menor que)
 
 <hr>
 
-<p>Como una aplicación web tiene bastantes archivos con extesión.html, hojas de estilo css, imágenes, videos, lo ideal seria ordenarlo</p>
+<p>Como una aplicación web tiene bastantes archivos con extesión.html, hojas de estilo css, imágenes, videos, lo mejor seria teber cada apartado ordenado</p>
 
 <p>Es recomendable crear un directorio personal, donde dejaremos todos nuestros archivos (web), en este directorio podemos poner todos los archivos.html y crear los directorios que necesitemos para poner los archivos multimedia (imágenes, audios y videos) y los estilos de la aplicación</p>
 
