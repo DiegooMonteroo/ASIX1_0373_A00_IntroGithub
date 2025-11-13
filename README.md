@@ -469,7 +469,7 @@ Cada etiqueta HMTL, empiezan con <b>(< y acaba con >)</b>
 <p><strong>caption: </strong>es el título o descripción para la tabla.   Normalmente se coloca justo después de la etiqueta (table)</p>
 
 <p><strong>Atributos comunes</strong></p>
-<hr>
+
 
 <p><strong>align: </strong>Alinea el titulo respecto al tabla <strong>top,bottom,left,right</strong></p>
 
