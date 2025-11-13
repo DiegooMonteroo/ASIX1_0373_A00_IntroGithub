@@ -15,7 +15,7 @@
 
 <p>Podemos inicar con un archivo Readme, aunque es opcional</p>
 
-<p><strong>Create repository</strong> al acabar los pasos, presionamos <strong>Create Repository</strong></p>
+<p>Al acabar los pasos, presionamos <strong>Create Repository, para crear el Repo</strong></p>
 
 <p>Además la usamos para hacer un <b>pages</b> de los trabajos</p>
 
@@ -77,12 +77,6 @@ Esto esta en *cursiva*
 
 **palabra1 _palabra2_** las 2 palabras se veran en itálica, pero la segunda además en negrita
 
-ABRIR ETIQUETA 1
-    ABRIR ETIQUETA 2
-        Contenido
-    CERRAR ETIQUETA 2
-CERRAR ETIQUETA 1
-
 **_*TEXTO**
 
 ## Lista ordenada 
@@ -124,6 +118,7 @@ b) El "titulo opcional del enlace " es el texto alternativo al pasar el ratón p
 
 ## Foto
 
+
 ![alt text](./the.jpeg "Imagen random de un archivo")
 
 ## Tabla
@@ -142,8 +137,6 @@ Se han de poner al menos tres guiones para separar cada enzabezado
 
 ## Notas al pie de página
 Texto con enlace a nota de pie de página [^1]
-HOLAHOLAHOLAOHLAOHOLAOHLAOLHOALAOLGOALGOALHOLAOFLGOHOLAOHLAOL
-[^1] Aqui encuentras el texto de la nota al pie de página
 
 ## Listas de verificación
 - [] A
@@ -155,7 +148,7 @@ HOLAHOLAHOLAOHLAOHOLAOHLAOLHOALAOLGOALGOALHOLAOFLGOHOLAOHLAOL
 
 ## ESTO ES HTML
 
-<p><strong>HTML (HyperText Markup Language)</strong> : es el lenguaje de marcado estándar para crear páginas web. Lenguaje mas importante de Intenet dado que sin HTML no se vería nada en el navegador</p>
+<p><strong>HTML (HyperText Markup Language)</strong> : es el lenguaje de marcado estándar para crear páginas web. el más importante de Intenet, ya que sin HTML no se vería nada en el navegador</p>
 
 <p><strong>HTML</strong> define la estructura y el contenido (es decir, si hay una imagen, una lista de elementos, un enlace, un párrafo, un titular, etc..) de las páginas web mediante etiquetas (DESCRIBE EL CONTENIDO) </p>
 
@@ -164,7 +157,7 @@ HOLAHOLAHOLAOHLAOHOLAOHLAOLHOALAOLGOALGOALHOLAOFLGOHOLAOHLAOL
 <p>Los elementos <strong>HTML</strong> son los bloques de construcción de las páginas HTML</p>
 
 
-<p>Cada elemento <strong>HTML</strong> está delimitado por etiquetas, como <b>(body) , (head) (p) (h1)</b> etc</p>
+<p>Cada elemento <strong>HTML</strong> está delimitado por etiquetas, como <b>(body) , (head), (p) o  (h1)</b> etc</p>
 
 
 <p>HTML fue desarrolado en 1991 por <strong>Tim Berners-Lee</strong></p>
@@ -174,7 +167,7 @@ HOLAHOLAHOLAOHLAOHOLAOHLAOLHOALAOLGOALGOALHOLAOFLGOHOLAOHLAOL
 ### INTRODUCIÓN A HTML
 <hr>
 
-Cada etiqueta HMTL, empiezan con (que y menor que)
+Cada etiqueta HMTL, empiezan con <b>(< y acaba con >)</b>
 
 <p><strong>HyperText:</strong> su significado es hipertexto, que no es más que un texto que enlaza con otros contenidos
 </p>
@@ -188,7 +181,7 @@ Cada etiqueta HMTL, empiezan con (que y menor que)
 
 <p>es un lenguaje que define la estructura de su contenido </p>
 
-<p>Esto implica que la información a mostrar ha de ir con etiquetas</p>
+<p>La información a mostrar ha de ir con etiquetas</p>
 
 ```html
 <p>Me llamo Diego</p>
@@ -226,7 +219,7 @@ Cada etiqueta HMTL, empiezan con (que y menor que)
 
 <p> Una página<strong> (HTML)</strong> incluye una declaración <strong>(DOCTYPE)</strong> un elemento html, dentro de este, un head y un body </p>
 
-<p>El head contiene metadatos y enlaces a hojas de estilo y scripts, mientras que el body contiene el contenido principal de la página web</p>
+<p>El head tiene metadatos y enlaces a hojas de estilo y scripts, mientras que el body contiene el contenido principal de la página web</p>
 
 <h4>Un ejemplo de estructura</h4>
 
@@ -240,9 +233,9 @@ Cada etiqueta HMTL, empiezan con (que y menor que)
 </head>
 </html>
 ```
-<p><strong>(!DOCTYPE html)</strong> Indica el tipo de Documento</p>
-<p><strong>(html)</strong> Encierra todo el contenido de la página entera</p>
-<p><strong>(head)</strong> aquel contenedor de todo aquello que queremos añadir en la página HTML, no es contenido visible por los visitantes de la páginas</p>
+<p><strong>(!DOCTYPE html) :</strong> Indica el tipo de Documento</p>
+<p><strong>(html) : </strong> Encierra todo el contenido de la página entera</p>
+<p><strong>(head) :</strong> contenedor de todo lo que queremos añadir en la página HTML, no es contenido visible para la gente que visita las páginas</p>
 
 ### ELEMENTOS DE BLOQUE Y LÍNEA
 <hr>
@@ -309,7 +302,7 @@ Cada etiqueta HMTL, empiezan con (que y menor que)
 
 ### COMENTARIOS
 
-<p>En un documento HTML, podemos escribir texto, que no se vera en el navegador, sirven bastante para el desarrollador web</p>
+<p>En un documento HTML, podemos escribir texto, que no se vera en el navegador</p>
 
 <p>Para hacer un comentario en HTML, se hace de la siguiente manera</p>
 
@@ -398,7 +391,7 @@ Cada etiqueta HMTL, empiezan con (que y menor que)
 
 <p><strong>Listas</strong></p>
 
-<p>Las listas <strong>desordenadas</strong> son aquellas en las que el orden de los items no es relevante, como una lista de compras.Estas son encerradas en un elemento <strong>(ul)</strong></p>
+<p>Las listas <strong>desordenadas</strong> son aquellas en las que el orden no es relevante, como una lista de compras.Estas son encerradas en un elemento <strong>(ul)</strong></p>
 
 <p>Cada <strong>Cada elemento de la lista</strong> se coloca dentro de <strong>(li)</strong></p>
 
@@ -411,7 +404,7 @@ Cada etiqueta HMTL, empiezan con (que y menor que)
 ```
 <p>Las listas <strong>ordenadas</strong> son aquellas en las que el orden  es relevante, como una receta.Estas son encerradas en un elemento <strong>(ol)</strong></p>
 
-<p>Cada <strong>Cada elemento de la lista</strong> se coloca dentro de <strong>(li)</strong></p>
+<p><strong>Cada elemento de la lista</strong> se coloca dentro de <strong>(li)</strong></p>
 
 ```html
     <ul><!-- Etiqueta para definir una lista desordenada -->
@@ -438,40 +431,47 @@ Cada etiqueta HMTL, empiezan con (que y menor que)
     <img id="imagen1" src="./MULTIMEDIA/IMAGENES/images.jpg" alt="Foto de SOLDIUER BOY" >
 ```
 
-### Etiquetas de Tablas (1/3)
+### ETIQUETAS DE TABLAS
+<hr>
 
-<p><strong>table:</strong> Define el inicio de una tabla en HTML</p>
-
-<p><strong>Atributos comunes</strong></p>
-
-<p><strong>border:</strong> Define el grosor del borde de la tabla</p>
-<p><strong>width:</strong> Especifica el ancho de la tabla</p>
-
-
-
-<p><strong>thead:</strong>Agrupa el encabezado de la tabla, normalmente contiene etiquetas (th)</p>
+<p><strong>table: </strong> Define el inicio de una tabla en HTML</p>
 
 <p><strong>Atributos comunes</strong></p>
 
-<p>No tiene atributos especifícos</p>
 
-<p><strong>tbody:</strong>Agrupa el cuerpo de la tabla.Útil para separar el contenido del encabezado y pie</p>
+<p><strong>border: </strong> Define el grosor del borde de la tabla</p>
+<p><strong>width: </strong> Especifica el ancho de la tabla</p>
+<hr>
+
+
+<p><strong>thead: </strong>Agrupa el encabezado de la tabla, normalmente contiene etiquetas (th)</p>
 
 <p><strong>Atributos comunes</strong></p>
 
 <p>No tiene atributos especifícos</p>
+<hr>
 
-<p><strong>tfoot:</strong>Agrupa el pie de la tabla, generalmente utilizado para resumen o información final</p>
-
-<p>No tiene atributos especifícos</p>
-
-### Etiquetas de Tablas (3/3)
-
-<p><strong>caption:</strong>Proporciona un título o descripción para la tabla.Normalmente se coloca justo después de la etiqueta (table)</p>
+<p><strong>tbody: </strong>Agrupa el cuerpo de la tabla.Útil para separar el contenido del encabezado y pie</p>
 
 <p><strong>Atributos comunes</strong></p>
 
-<p><strong>align:</strong>Alinea el titulo respecto al tabla <strong>top,bottom,left,right</strong></p>
+
+<p>No tiene atributos especifícos</p>
+<hr>
+
+<p><strong>tfoot: </strong>Agrupa el pie de la tabla, generalmente utilizado para resumen o información final</p>
+
+<p>No tiene atributos especifícos</p>
+<hr>
+
+### ETIQUETAS DE TABLAS 
+
+<p><strong>caption: </strong>es el título o descripción para la tabla.   Normalmente se coloca justo después de la etiqueta (table)</p>
+
+<p><strong>Atributos comunes</strong></p>
+<hr>
+
+<p><strong>align: </strong>Alinea el titulo respecto al tabla <strong>top,bottom,left,right</strong></p>
 
 
 
@@ -529,6 +529,7 @@ Cada etiqueta HMTL, empiezan con (que y menor que)
 <p><strong>_self</strong>(por defecto). La respuesta se carga en la misma ventana</p>
 
 <p><strong>_blank</strong> Abre la respuesta en una nueva pestaña o ventana</p>
+<hr>
 
 ### Etiquetas de formularios (input)
 
@@ -552,6 +553,7 @@ Cada etiqueta HMTL, empiezan con (que y menor que)
 
 
 <p><strong>readonly:</strong> Hace que el campo sea solo de lectura.evitando que el usuario modifique su contenido</p>
+<hr>
 
 ### Etiquetas de formularios (select/option)
 
