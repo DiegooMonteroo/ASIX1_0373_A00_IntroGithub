@@ -1,8 +1,5 @@
-# ASIX1_0373_A00_IntroGithub
+# ASIX1_0373_A00_Apuntes
 ## Primer repositorio del curso 2025-2026 de ASIX1
-### Es mi primera toma de contacto con github
-#### Soy Diego Montero
-
 
 ### GIT HUB
 
@@ -12,7 +9,15 @@
 
 <p>Actualmente, la estamos usando para la creación de repos y subir el contenido de todos los trabajos</p>
 
-<p>Además la usamos para hacer un pages de los trabajos</p>
+<p>Para crear un repositorio, accedemos a Github, le damos a <b>New </b>(sobre repositorios), le colocamos un <strong>Nombre y descripcion.</strong></p>
+
+<p><strong>Visibilidad:</strong> Podemos poner el repo en publico, o en privado</p>
+
+<p>Podemos inicar con un archivo Readme, aunque es opcional</p>
+
+<p><strong>Create repository</strong> al acabar los pasos, presionamos <strong>Create Repository</strong></p>
+
+<p>Además la usamos para hacer un <b>pages</b> de los trabajos</p>
 
 ![alt text](./cap4.png "Imagen random de un archivo")
 
@@ -23,13 +28,13 @@
 
 <p><strong>Git:</strong> es un sistema de control de versiones distribuido capaz de gestionar versiones de código fuente o datos. lo que da quiere decir, un clon local del proyecto es un repositorio de control de versiones completo.</p>
 
-<p>Tambíen lo usamos para subir los cambios que hemos realizado en la prácticas en Git Hub</p>
+<p>Lo usamos, para subir los cambios que hemos realizado, en la prácticas de Git Hub</p>
 
 <p>Para ello, usamos distintos comandos</p>
 
-<p><strong>git init: </strong>Inicializa un repositorio Git en la carpeta actual.</p>
+<p><strong>git init : </strong>Inicializa un repositorio Git en la carpeta actual.</p>
 
-<p><strong>git add .: </strong>Añade todos los archivos modificados al área de preparación (staging area).</p>
+<p><strong>git add .. : </strong>Añade todos los archivos modificados al área de preparación (staging area).</p>
 
 <p><strong>git commit -m (mensaje): </strong>Registra los cambios añadidos con un mensaje descriptivo</p>
 
