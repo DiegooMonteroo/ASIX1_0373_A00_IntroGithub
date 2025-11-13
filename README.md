@@ -557,7 +557,6 @@ Cada etiqueta HMTL, empiezan con <b>(< y acaba con >)</b>
 
 ### Etiquetas de formularios (select/option)
 
-<hr>
 <p><strong>select o option </strong> Se utiliza para crear menús desplegables en los formularios</p>
 
 <p>Permite al usuario seleccionar <strong>una opción</strong> de una lista de opciones predefinidas</p>
@@ -572,7 +571,7 @@ Cada etiqueta HMTL, empiezan con <b>(< y acaba con >)</b>
 
 <p><strong>value:</strong> Indica el valor de la opción</p>
 
-
+<hr>
 <h3>Etiquetas de formularios (button)</h3>
 
 <p><strong>button</strong> Se utiliza para crear varios tipos de botones interactivos en un formulario o en una página web</p>
